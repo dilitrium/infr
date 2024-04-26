@@ -1,4 +1,4 @@
-# Initial_infr
+# infr
 
 Спринт 1
 
@@ -45,18 +45,10 @@
   ```
 
 Результаты выполнения развёртываний инфраструктуры и кластера:
-![Deploy_infr-1-1-2-3](https://github.com/MikhailRyzhkin/Initial_infr/assets/69116076/a852459b-e4e7-4457-85da-989ffcb088c5)
+![create srv](https://github.com/vajierik/infr/assets/150177457/ec2e3ffb-d459-445a-82dc-ecc7ea8d270d)
 
-![Deploy_infr-2-1-2-3](https://github.com/MikhailRyzhkin/Initial_infr/assets/69116076/b592338b-ecb0-4cc6-ac15-c00a4e54b610)
+![create master-worker](https://github.com/vajierik/infr/assets/150177457/11477be0-ddfb-4a46-afe8-24864f3b5006)
 
-![diplom-развертывание k8s](https://github.com/MikhailRyzhkin/Initial_infr/assets/69116076/6feff359-f08e-4063-831f-b7548fa04b35)
+![create cluster k8s](https://github.com/vajierik/infr/assets/150177457/dffff24c-3b9f-4258-a507-b8dc101dc76f)
 
-![diplom-развертывание k8s-1](https://github.com/MikhailRyzhkin/Initial_infr/assets/69116076/d8c3ece4-7d5f-4b8c-be11-fabdaded5c02)
-
-![ВМ диплома](https://github.com/MikhailRyzhkin/Initial_infr/assets/69116076/051ce0db-ad6c-460d-b838-5a417ebd2156)
-
-
-
-
-
-
+![vm](https://github.com/vajierik/infr/assets/150177457/39a5aaf8-9dc3-4952-84fa-f651cf0f22f7)
