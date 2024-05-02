@@ -51,4 +51,5 @@
 
 ![create cluster k8s](https://github.com/vajierik/infr/assets/150177457/dffff24c-3b9f-4258-a507-b8dc101dc76f)
 
-![vm](https://github.com/vajierik/infr/assets/150177457/39a5aaf8-9dc3-4952-84fa-f651cf0f22f7)
+![vm](https://github.com/vajierik/infr/assets/150177457/a14d52bb-efa5-4d49-81ff-063cf032ccc0)
+
