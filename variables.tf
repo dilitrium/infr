@@ -3,21 +3,21 @@
 variable "yandex_cloud_token" {
   description = "Default cloud token in yandex cloud"
   type        = string
-  default = "y0_AgAAAAAH33B6AATuwQAAAAD0A7mP6OZQo1auSE6H3UXp0uHXF0pqdrY"
+  default = "ххх"
 }
 
 # Переменная определяющая id облака, где развернуть ВМ
 variable "yandex_cloud_id" {
   description = "Default cloud ID in yandex cloud"
   type        = string
-  default = "b1gqkcvoua07qmolears"
+  default = "ххх"
 }
 
 # Переменная определяющая id папки, где развернуть ВМ
 variable "yandex_folder_id" {
   description = "Default folder ID in yandex cloud"
   type        = string
-  default = "b1g35gfqsn2ee0jmmuvd"
+  default = "ххх"
 }
 # Переменная определяющая зону для разворачивания ВМ
 variable "zone" {                                                   # Используем переменную для передачи в конфиг инфраструктуры
