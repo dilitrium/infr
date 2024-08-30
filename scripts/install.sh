@@ -64,9 +64,9 @@ sleep 35
 
 # Клонируем репозитории для установки k8s кластера с помощью kubespray
 cd /opt/
-git clone https://github.com/vajierik/kubernetes_setup.git
+git clone https://github.com/dilitrium/kubernetes_setup.git
 cd kubernetes_setup/
-git clone https://github.com/vajierik/kubespray.git
+git clone https://github.com/dilitrium/kubespray.git
 pip3 install -r /opt/kubernetes_setup/kubespray/requirements-2.9.txt
 sleep 25
 
