@@ -27,7 +27,7 @@ variable "ssh_credentials" {
   })
   default     = {
     user        = "ubuntu"
-    private_key = "/home/otr/.ssh/id_rsa"
-    pub_key     = "/home/otr/.ssh/id_rsa.pub"
+    private_key = "/home/litium/.ssh/id_ed25519"
+    pub_key     = "/home/litium/.ssh/id_ed25519.pub"
   }
 }

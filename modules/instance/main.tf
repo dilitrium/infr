@@ -13,25 +13,25 @@ provider "yandex" {
 
 # Service accounts
 # Создание сервисного аккаунта в яндекс облаке для кластера srv ноды
-resource "yandex_iam_service_account" "vajierik-diplom" {
-  name = "vajierik-diplom"
+resource "yandex_iam_service_account" "litium-diplom" {
+  name = "litium-diplom"
 }
 
 # Назначаем права созданного аккаунта
-resource "yandex_resourcemanager_folder_iam_member" "vajierik-diplom-admin" {
+resource "yandex_resourcemanager_folder_iam_member" "litium-diplom-admin" {
   folder_id = var.yandex_folder_id
   role = "admin"
   member = "serviceAccount:${yandex_iam_service_account.vajierik-diplom.id}"
   depends_on = [
-    yandex_iam_service_account.vajierik-diplom,
+    yandex_iam_service_account.litium-diplom,
   ]
 }
 
 # Создаем ключи доступа Static Access Keys
 resource "yandex_iam_service_account_static_access_key" "static-access-key" {
-  service_account_id = yandex_iam_service_account.vajierik-diplom.id
+  service_account_id = yandex_iam_service_account.litium-diplom.id
   depends_on = [
-    yandex_iam_service_account.vajierik-diplom,
+    yandex_iam_service_account.litium-diplom,
   ]
 }
 
