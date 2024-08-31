@@ -77,22 +77,22 @@ chmod +x /opt/kubernetes_setup/terraform/generate_credentials_velero.sh
 chmod +x /opt/kubernetes_setup/terraform/generate_etc_hosts.sh
 chmod +x /opt/kubernetes_setup/terraform/generate_inventory.sh
 mv /home/ubuntu/private.variables.tf /opt/kubernetes_setup/terraform/private.variables.tf
-cp /home/ubuntu/id_rsa.pub /home/ubuntu/.ssh/id_rsa.pub
-cp /home/ubuntu/id_rsa /home/ubuntu/.ssh/id_rsa
-mv /home/ubuntu/id_rsa.pub /root/.ssh/id_rsa.pub
-mv /home/ubuntu/id_rsa /root/.ssh/id_rsa
-echo "private_key_file = /home/ubuntu/.ssh/id_rsa.pub" >> /etc/ansible/ansible.cfg
-echo "private_key_file = /home/ubuntu/.ssh/id_rsa.pub" >> /opt/kubernetes_setup/kubespray/ansible.cfg
+cp /home/ubuntu/id_ed25519.pub /home/ubuntu/.ssh/id_ed25519.pub
+cp /home/ubuntu/id_ed25519 /home/ubuntu/.ssh/id_ed25519
+mv /home/ubuntu/id_ed25519.pub /root/.ssh/id_ed25519.pub
+mv /home/ubuntu/id_ed25519 /root/.ssh/id_ed25519
+echo "private_key_file = /home/ubuntu/.ssh/id_ed25519.pub" >> /etc/ansible/ansible.cfg
+echo "private_key_file = /home/ubuntu/.ssh/id_ed25519.pub" >> /opt/kubernetes_setup/kubespray/ansible.cfg
 chmod 700 /home/ubuntu/.ssh/
 chmod 700 /root/.ssh/
-chmod 600 /home/ubuntu/.ssh/id_rsa
-chown -R ubuntu:ubuntu /home/ubuntu/.ssh/id_rsa
-chmod 600 /root/.ssh/id_rsa
-chown -R root:root /root/.ssh/id_rsa
-chmod 644 /home/ubuntu/.ssh/id_rsa.pub
-chown -R ubuntu:ubuntu /home/ubuntu/.ssh/id_rsa.pub
-chmod 644 /root/.ssh/id_rsa.pub
-chown -R root:root /root/.ssh/id_rsa.pub
+chmod 600 /home/ubuntu/.ssh/id_ed25519
+chown -R ubuntu:ubuntu /home/ubuntu/.ssh/id_ed25519
+chmod 600 /root/.ssh/id_ed25519
+chown -R root:root /root/.ssh/id_ed25519
+chmod 644 /home/ubuntu/.ssh/id_ed25519.pub
+chown -R ubuntu:ubuntu /home/ubuntu/.ssh/id_ed25519.pub
+chmod 644 /root/.ssh/id_ed25519.pub
+chown -R root:root /root/.ssh/id_ed25519.pub
 apt-get autoremove -y
 apt-get autoclean -y
 

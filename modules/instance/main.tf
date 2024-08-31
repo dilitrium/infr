@@ -21,7 +21,7 @@ resource "yandex_iam_service_account" "litium-diplom" {
 resource "yandex_resourcemanager_folder_iam_member" "litium-diplom-admin" {
   folder_id = var.yandex_folder_id
   role = "admin"
-  member = "serviceAccount:${yandex_iam_service_account.vajierik-diplom.id}"
+  member = "serviceAccount:${yandex_iam_service_account.litium-diplom.id}"
   depends_on = [
     yandex_iam_service_account.litium-diplom,
   ]
