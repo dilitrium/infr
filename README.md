@@ -43,7 +43,7 @@
   - Автоматически устанавливается с сервера srv кластер k8s с созданием master-ноды и worker-ноды кластера.
   
 Результаты выполнения скриптов развёртывания инфраструктуры и кластера k8s:
-![create srv](https://github.com/dilitrium/screendiplom/blob/173bbfc923c52cc4f3738ac4f9e8c1b06e061747/infr/create%20cluster%20k8s.png)
+![create srv](https://github.com/dilitrium/screendiplom/blob/173bbfc923c52cc4f3738ac4f9e8c1b06e061747/infr/create%20srv.png)
 
 ![create master-worker](https://github.com/vajierik/infr/assets/150177457/11477be0-ddfb-4a46-afe8-24864f3b5006)
 
