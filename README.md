@@ -45,9 +45,9 @@
 Результаты выполнения скриптов развёртывания инфраструктуры и кластера k8s:
 ![create srv](https://github.com/dilitrium/screendiplom/blob/173bbfc923c52cc4f3738ac4f9e8c1b06e061747/infr/create%20srv.png)
 
-![create master-worker](https://github.com/vajierik/infr/assets/150177457/11477be0-ddfb-4a46-afe8-24864f3b5006)
+![create master-worker](https://github.com/dilitrium/screendiplom/blob/173bbfc923c52cc4f3738ac4f9e8c1b06e061747/infr/create%20cluster%20k8s.png)
 
-![create cluster k8s](https://github.com/vajierik/infr/assets/150177457/dffff24c-3b9f-4258-a507-b8dc101dc76f)
+![create cluster k8s](https://github.com/dilitrium/screendiplom/blob/173bbfc923c52cc4f3738ac4f9e8c1b06e061747/infr/kuber_cluster_status.png)
 
-![vm](https://github.com/vajierik/infr/assets/150177457/a14d52bb-efa5-4d49-81ff-063cf032ccc0)
+![vm](https://github.com/dilitrium/screendiplom/blob/cc84c687ebd9bcfb93958a2206b434b63621b0d9/infr/VM.png)
 
